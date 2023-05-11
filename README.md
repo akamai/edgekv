@@ -175,7 +175,7 @@ async PUT json into an item in the EdgeKV.
   * if the operation was not successful, an object describing the non-200 response from the EdgeKV: {failed, status, body}
 
 ```js
-await ekv.putJson({item: 'key', value: {name: 'foo', description: 'bar'}});
+await ekv.putJson({ item: 'key', value: {name: 'foo', description: 'bar'} });
 ```
 
 ### putJsonNoWait
@@ -192,7 +192,7 @@ PUT json into an item in the EdgeKV while only waiting for the request to send a
   * if the operation was not successful at sending the request, an object describing the error: {failed, status, body}
 
 ```js
-await ekv.putJsonNoWait({ namespace = this.#namespace, group = this.#group, item, value } = {})
+await ekv.putJsonNoWait({ item: 'key', value: {name: 'foo', description: 'bar'} });
 ```
 
 ### delete
