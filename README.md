@@ -1,4 +1,4 @@
-# EdgeKV Helper Library
+# EdgeKV Helper Library - npm package
 
 This helper class can be used to simplify the interaction with EdgeKV in EdgeWorker code. It abstracts away the complexity into a few lines of code.
 
