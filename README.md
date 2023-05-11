@@ -31,7 +31,7 @@ edgekv_tokens.js can be created by Akamai CLI.
 	 */
 	import { edgekv_access_tokens } from './edgekv_tokens.js';
 	new EdgeKV("namespace", "group", edgekv_access_tokens);
-	```
+```
 ### getText
 ```
 	/**
