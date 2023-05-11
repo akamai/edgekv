@@ -26,23 +26,23 @@ export default {
   input: ["src/main.js", "src/bundle.json", "src/edgekv_tokens.js"],
   external: [
     'create-response',
-		'http-request',
-		'cookies',
-		'text-encode-transform',
-		'url-search-params',
-		'streams',
-		'log',
-		'resolvable'
-	],
-	preserveModules: false,
-	output: {
-		dir: "dist",
-		format: "es"
-	},
-	plugins: [
-		commonjs(),
-		resolve()
-	]
+    'http-request',
+    'cookies',
+    'text-encode-transform',
+    'url-search-params',
+    'streams',
+    'log',
+    'resolvable'
+  ],
+  preserveModules: false,
+  output: {
+    dir: "dist",
+    format: "es"
+  },
+  plugins: [
+    commonjs(),
+    resolve()
+  ]
 };
 ```
 
